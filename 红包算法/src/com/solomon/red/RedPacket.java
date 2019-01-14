@@ -80,7 +80,7 @@ public class RedPacket {
      * @param totalMoney 总金额
      * @param minMoney   最小金额
      * @param maxMoney   最大金额
-     * @param count      红包数量
+     * @param count      剩余红包数量
      * @return
      */
     private int randomRedPacket(int totalMoney, int minMoney, int maxMoney, int count) {
