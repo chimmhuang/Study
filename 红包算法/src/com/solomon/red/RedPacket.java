@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author Created by solomon on 2019/1/7 0007.
+ * @author Created by chimmhuang on 2019/1/7 0007.
  * <p>
  * 模拟微信红包生成（单位：分）
  */
@@ -147,7 +147,7 @@ public class RedPacket {
 
     public static void main(String[] args) {
         RedPacket redPacket = new RedPacket();
-        List<Integer> redPackets = redPacket.splitRedPacket(20000, 100);
+        List<Integer> redPackets = redPacket.splitRedPacket(100000, 100);
         System.out.println(redPacket);
 
         int sum = 0;
